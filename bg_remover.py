@@ -1,14 +1,10 @@
 from io import BytesIO
 from PIL import Image
-
+from rembg import remove
 import streamlit as st
 
 
-try:
-    from rembg import remove
-except ImportError as e:
-    st.write(f"Error importing rembg library: {e}")
-    st.write("Please ensure all dependencies are correctly installed.")
+
 
 st.set_page_config(page_title="BG Remover", page_icon="🖼️")
 st.title("Your Best BG-remover")
