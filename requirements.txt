@@ -1,6 +1,6 @@
 streamlit==1.21.0
 rembg==2.0.50
-onnxruntime
+onnxruntime==1.10.0
 pillow
 numba == 0.57
 numpy==1.23.0
