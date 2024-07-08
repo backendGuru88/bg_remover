@@ -8,7 +8,7 @@ st.title("Your Best BG-remover")
 st.write(":dog: This app uses the rembg library to remove the background from your images easily. Upload your image, and the app will process it to remove the background, allowing you to download the result with a clear, background-free image.")
 st.sidebar.write("**How to use:**")
 
-st.sidebar.write("1. Upload an image by clicking the 'Browse file' button.")
+st.sidebar.write("1. Upload an image by clicking the 'Browse files' button.")
 
 col1, col2 = st.columns(2)
 
